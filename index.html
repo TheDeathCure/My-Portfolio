@@ -15,22 +15,22 @@
       <nav>
         <div class="personal__logo">Claire Pittman</div>
         <ul class="nav__link--list">
-          <li>
+          <li class="nav__link">
             <a
-              href=""
+              href="#languages"
               class="nav__link--anchor link__hover-effect link__hover-effect--black"
               >Languages</a
             >
           </li>
-          <li>
+          <li class="nav__link">
             <a
-              href=""
+              href="#projects"
               class="nav__link--anchor link__hover-effect link__hover-effect--black"
-              >Project</a
+              >Projects</a
             >
           </li>
-          <li>
-            <a href="" class="nav__link--anchor nav__link--anchor-primary"
+          <li class="nav__link">
+            <a href="mailto:email@email.com" class="nav__link--anchor nav__link--anchor-primary"
               >Contact</a
             >
           </li>
@@ -48,7 +48,7 @@
               />
             </figure>
             <h1 class="about-me__info--title">
-              Hi, I'm <span class="text--purple">Claire Pittman</span>
+              Hi, I'm <span class="text--purple">Claire Pittman</span>&nbsp;<span class="wave">👋</span>
             </h1>
             <p class="about-me__info--para">
               I'm a
@@ -70,6 +70,20 @@
                 target="_blank"
               >
                 <i class="fab fa-linkedin"></i>
+              </a>
+              <a
+                href=""
+                class="about-me__link"
+                target="_blank"
+              >
+                <i class="fab fa-envelope"></i>
+              </a>
+              <a
+                href="/assets/Resume.pdf" target="_blank"
+                class="about-me__link"
+                target="_blank"
+              >
+                <i class="fab fa-file-pdf"></i>
               </a>
             </div>
           </div>
@@ -285,21 +299,42 @@
       </div>
     </section>
     <footer>
-        <div class="row">
-            <a href="#">
-                <figure>
-                    <img src="./assets/Unknown.png" alt="celebration image" class="footer__img">
+        <div class="row footer__row">
+            <a href="#" class="footer__anchor">
+                <figure class="footer__logo">
+                    <img src="./assets/Unknown.png" alt="celebration image" class="footer__logo--img">
                 </figure>
+                <span class="footer__logo--popper">
+                Top
+                <i class="fas fa-arrow-up"></i>
+                </span>
             </a>
             <div class="footer__social--list">
                 <a href="" class="
                 footer__social--link
                 link__hover-effect
                 link__hover-effect--white" 
-                target="_blank">
-                </a>
+                target="_blank">Github</a>
+                <a href="" class="
+                footer__social--link
+                link__hover-effect
+                link__hover-effect--white" 
+                target="_blank">LinkedIn</a>
+                <a href="mailto:email@example.com" class="
+                footer__social--link
+                link__hover-effect
+                link__hover-effect--white" 
+                target="_blank">Email</a>
+                <a href="./assets/" class="
+                footer__social--link
+                link__hover-effect
+                link__hover-effect--white" 
+                target="_blank">Resume</a>
             </div>
+            <div class="copyright">
+        <p>&copy; 2026 Claire Pittman. All rights reserved.</p>
         </div>
+
     </footer>
   </body>
 </html>
